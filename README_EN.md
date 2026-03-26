@@ -1,39 +1,39 @@
-# 🚀 Complete Internet Freedom Guide | Learn Clash from Scratch
+# 馃殌 Complete Internet Freedom Guide | Learn Clash from Scratch
 
 [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/clashhub-net/clash-vpn-guide.svg?style=flat-square)](https://github.com/clashhub-net/clash-vpn-guide/stargazers)
 
-> 📖 **Beginner-friendly Clash tutorial - Step by step guide**
+> 馃摉 **Beginner-friendly Clash tutorial - Step by step guide**
 > 
 > From choosing a VPN service to advanced configuration - Master internet freedom
 
-**[中文文档](docs/zh/README.md)** | **English**
+**[涓枃鏂囨。](docs/zh/README.md)** | **English**
 
 ---
 
-## 📋 Table of Contents
+## 馃搵 Table of Contents
 
-- [🌟 What is Internet Freedom?](#-what-is-internet-freedom)
-- [🎯 Why Clash?](#-why-clash)
-- [📦 Step 1: Choose a VPN Service](#-step-1-choose-a-vpn-service)
-- [💻 Step 2: Download Client](#-step-2-download-client)
-- [⚙️ Step 3: Configure & Use](#�?step-3-configure--use)
-- [🔧 Step 4: Advanced Optimization](#-step-4-advanced-optimization)
-- [💡 Pro Tips](#-pro-tips)
-- [�?FAQ](#-faq)
-- [📚 More Resources](#-more-resources)
+- [馃専 What is Internet Freedom?](#-what-is-internet-freedom)
+- [馃幆 Why Clash?](#-why-clash)
+- [馃摝 Step 1: Choose a VPN Service](#-step-1-choose-a-vpn-service)
+- [馃捇 Step 2: Download Client](#-step-2-download-client)
+- [鈿欙笍 Step 3: Configure & Use](#锔?step-3-configure--use)
+- [馃敡 Step 4: Advanced Optimization](#-step-4-advanced-optimization)
+- [馃挕 Pro Tips](#-pro-tips)
+- [鉂?FAQ](#-faq)
+- [馃摎 More Resources](#-more-resources)
 
 ---
 
-## 🌟 What is Internet Freedom?
+## 馃専 What is Internet Freedom?
 
 Internet freedom refers to accessing worldwide content without restrictions:
 
-- 🎬 **Streaming**: Netflix, YouTube, Disney+, HBO Max
-- 💬 **Social**: Twitter, Instagram, Facebook, Telegram
-- 🤖 **AI Tools**: ChatGPT, Claude, Midjourney
-- 🛠 **Dev Tools**: GitHub, Google Search, Stack Overflow
-- 📚 **Academic**: Google Scholar, Wikipedia (full version)
+- 馃幀 **Streaming**: Netflix, YouTube, Disney+, HBO Max
+- 馃挰 **Social**: Twitter, Instagram, Facebook, Telegram
+- 馃 **AI Tools**: ChatGPT, Claude, Midjourney
+- 馃洜 **Dev Tools**: GitHub, Google Search, Stack Overflow
+- 馃摎 **Academic**: Google Scholar, Wikipedia (full version)
 
 ### Why Do You Need It?
 
@@ -47,30 +47,30 @@ Internet freedom refers to accessing worldwide content without restrictions:
 
 ---
 
-## 🎯 Why Clash?
+## 馃幆 Why Clash?
 
 ### Clash Advantages
 
 | Feature | Description |
 |---------|-------------|
-| �?**Rule-based Routing** | Chinese sites direct, foreign sites proxied |
-| �?**Multi-protocol** | Shadowsocks, V2Ray, Trojan compatible |
-| �?**User-friendly** | GUI interface, easy for beginners |
-| �?**Cross-platform** | Windows, macOS, Linux, iOS, Android |
-| �?**Open Source** | Core features are completely free |
-| �?**Customizable** | Custom rules, scripts enhancement |
+| 鉁?**Rule-based Routing** | Chinese sites direct, foreign sites proxied |
+| 鉁?**Multi-protocol** | Shadowsocks, V2Ray, Trojan compatible |
+| 鉁?**User-friendly** | GUI interface, easy for beginners |
+| 鉁?**Cross-platform** | Windows, macOS, Linux, iOS, Android |
+| 鉁?**Open Source** | Core features are completely free |
+| 鉁?**Customizable** | Custom rules, scripts enhancement |
 
 ### Clash vs Other Tools
 
 | Tool | Ease of Use | Features | Rule Routing | Rating |
 |------|-------------|----------|--------------|--------|
-| **Clash** | ⭐⭐⭐⭐�?| ⭐⭐⭐⭐�?| �?| 🔥 Strongly Recommended |
-| v2rayN | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | �?| Good for advanced users |
-| Shadowsocks | ⭐⭐�?| ⭐⭐�?| �?| Traditional choice |
+| **Clash** | 猸愨瓙猸愨瓙猸?| 猸愨瓙猸愨瓙猸?| 鉁?| 馃敟 Strongly Recommended |
+| v2rayN | 猸愨瓙猸愨瓙 | 猸愨瓙猸愨瓙 | 鉂?| Good for advanced users |
+| Shadowsocks | 猸愨瓙猸?| 猸愨瓙猸?| 鉂?| Traditional choice |
 
 ---
 
-## 📦 Step 1: Choose a VPN Service
+## 馃摝 Step 1: Choose a VPN Service
 
 ### What is a VPN Service Provider?
 
@@ -78,7 +78,7 @@ VPN service providers (called "airports" in Chinese) offer proxy nodes. You need
 
 ### How to Choose a Reliable Provider?
 
-#### �?Key Metrics
+#### 鉁?Key Metrics
 
 | Metric | Description |
 |--------|-------------|
@@ -89,17 +89,17 @@ VPN service providers (called "airports" in Chinese) offer proxy nodes. You need
 | **Support** | TG group/ticket system |
 | **Price** | Good value, trial available |
 
-#### 🏆 Recommended Providers
+#### 馃弳 Recommended Providers
 
 | Name | Features | Price Range | Rating |
 |------|----------|------------|--------|
-| [**ClashVIP**](https://clashvip.net) | Great value, full streaming unlock, new user deals | $2-10/month | ⭐⭐⭐⭐�?|
-| [**ClashHub**](https://clashhub.net) | Optimized routing, gaming acceleration, low latency | $3-12/month | ⭐⭐⭐⭐�?|
-| [**CFW Official Nodes**](https://clash-for-windows.net) | Official partnership, stable & reliable | $4-15/month | ⭐⭐⭐⭐ |
+| [**ClashVIP**](https://clashvip.net) | Great value, full streaming unlock, new user deals | $2-10/month | 猸愨瓙猸愨瓙猸?|
+| [**ClashHub**](https://clashhub.net) | Optimized routing, gaming acceleration, low latency | $3-12/month | 猸愨瓙猸愨瓙猸?|
+| [**CFW Official Nodes**](https://clash-for-windows.net) | Official partnership, stable & reliable | $4-15/month | 猸愨瓙猸愨瓙 |
 
-💡 **Tip**: Use the free trial first, subscribe after testing
+馃挕 **Tip**: Use the free trial first, subscribe after testing
 
-#### 🔍 More Comparisons
+#### 馃攳 More Comparisons
 
 Visit [VPN Navigator](https://nav.clashvip.net) for:
 - Provider price comparisons
@@ -109,7 +109,7 @@ Visit [VPN Navigator](https://nav.clashvip.net) for:
 
 ---
 
-## 💻 Step 2: Download Client
+## 馃捇 Step 2: Download Client
 
 ### Windows Users
 
@@ -128,7 +128,7 @@ Visit [VPN Navigator](https://nav.clashvip.net) for:
 
 ```powershell
 # If prompted "Windows protected your PC"
-# Click "More info" �?"Run anyway"
+# Click "More info" 鈫?"Run anyway"
 ```
 
 ### macOS Users
@@ -139,7 +139,7 @@ Visit [VPN Navigator](https://nav.clashvip.net) for:
 
 1. Download `.dmg` file
 2. Double-click to open, drag to Applications
-3. Right-click �?Open (bypass security check)
+3. Right-click 鈫?Open (bypass security check)
 
 **If Blocked**:
 
@@ -158,7 +158,7 @@ sudo xattr -r -d com.apple.quarantine /Applications/Clash\ for\ Windows.app
 
 1. Search "Shadowrocket" in App Store
 2. Purchase and download
-3. Copy subscription link �?Open App �?Auto-detect �?Add nodes
+3. Copy subscription link 鈫?Open App 鈫?Auto-detect 鈫?Add nodes
 
 #### Free Option: Stash
 
@@ -174,11 +174,11 @@ sudo xattr -r -d com.apple.quarantine /Applications/Clash\ for\ Windows.app
 
 1. Download `.apk` file
 2. Allow "Install from unknown apps"
-3. Open App �?Settings �?Import subscription
+3. Open App 鈫?Settings 鈫?Import subscription
 
 ---
 
-## ⚙️ Step 3: Configure & Use
+## 鈿欙笍 Step 3: Configure & Use
 
 ### 3.1 Get Subscription Link
 
@@ -186,7 +186,7 @@ sudo xattr -r -d com.apple.quarantine /Applications/Clash\ for\ Windows.app
 2. Go to "My Subscription" or "User Center"
 3. Find and copy "Subscription Link"
 
-> 💡 **Note**: Subscription link is private - don't share with others!
+> 馃挕 **Note**: Subscription link is private - don't share with others!
 
 ### 3.2 Import Subscription
 
@@ -200,7 +200,7 @@ sudo xattr -r -d com.apple.quarantine /Applications/Clash\ for\ Windows.app
 #### Clash Verge
 
 1. Click "Config" on left
-2. Click "New" �?select "Remote"
+2. Click "New" 鈫?select "Remote"
 3. Paste subscription link
 4. Click the "Use" button on the right of config
 
@@ -215,7 +215,7 @@ sudo xattr -r -d com.apple.quarantine /Applications/Clash\ for\ Windows.app
 
 **Recommended Config**:
 - Daily use: Enable "System Proxy"
-- Gaming: Install "Service Mode" �?Enable "TUN Mode"
+- Gaming: Install "Service Mode" 鈫?Enable "TUN Mode"
 
 #### Routing Mode
 
@@ -244,7 +244,7 @@ sudo xattr -r -d com.apple.quarantine /Applications/Clash\ for\ Windows.app
 
 ---
 
-## 🔧 Step 4: Advanced Optimization
+## 馃敡 Step 4: Advanced Optimization
 
 ### 4.1 Custom Rules
 
@@ -261,7 +261,7 @@ rules:
 
 #### Adding Custom Rules
 
-1. Open config file (Profiles �?click "Edit" on config right side)
+1. Open config file (Profiles 鈫?click "Edit" on config right side)
 2. Add your rules in `rules` section
 3. Save and reload config
 
@@ -271,7 +271,7 @@ rules:
 
 **Steps**:
 
-1. Clash �?General �?Service Mode �?Install
+1. Clash 鈫?General 鈫?Service Mode 鈫?Install
 2. Wait for service installation
 3. Enable "TUN Mode"
 
@@ -302,7 +302,7 @@ See [Script Enhancement Guide](docs/en/script-enhancement.md)
 
 ---
 
-## 💡 Pro Tips
+## 馃挕 Pro Tips
 
 ### Keyboard Shortcuts
 
@@ -313,7 +313,7 @@ See [Script Enhancement Guide](docs/en/script-enhancement.md)
 
 ### Speed Testing
 
-1. **Node Test**: Proxies �?click speed test button on node group
+1. **Node Test**: Proxies 鈫?click speed test button on node group
 2. **Connection Test**: Run in terminal:
    ```bash
    curl -I https://www.google.com
@@ -328,7 +328,7 @@ Visit these sites to test node streaming support:
 
 ---
 
-## �?FAQ
+## 鉂?FAQ
 
 <details>
 <summary><b>Q1: All websites unreachable after enabling proxy?</b></summary>
@@ -395,17 +395,17 @@ export https_proxy=http://127.0.0.1:7890
 **iOS (Shadowrocket recommended)**:
 1. Purchase Shadowrocket in App Store ($3)
 2. Copy subscription link
-3. Open App �?Auto-detect �?Click "Add nodes"
+3. Open App 鈫?Auto-detect 鈫?Click "Add nodes"
 
 **Android (Clash for Android recommended)**:
 1. [Download APK](https://github.com/Kr328/ClashForAndroid/releases)
-2. Install �?Settings �?Import subscription
+2. Install 鈫?Settings 鈫?Import subscription
 
 </details>
 
 ---
 
-## 📚 More Resources
+## 馃摎 More Resources
 
 ### Official Resources
 
@@ -431,7 +431,7 @@ export https_proxy=http://127.0.0.1:7890
 
 ---
 
-## 🤝 Contributing
+## 馃 Contributing
 
 Found an error or have suggestions? Welcome:
 
@@ -440,23 +440,23 @@ Found an error or have suggestions? Welcome:
 
 ---
 
-## ⚠️ Disclaimer
+## 鈿狅笍 Disclaimer
 
 This tutorial is for technical exchange and educational purposes only. Please comply with local laws and regulations. Do not use for illegal purposes. Users are responsible for any consequences.
 
 ---
 
-## 📜 License
+## 馃摐 License
 
-[CC BY-NC-SA 4.0](LICENSE) © 2026
+[CC BY-NC-SA 4.0](LICENSE) 漏 2026
 
 ---
 
-**🌟 If this tutorial helps you, please give a Star!**
+**馃専 If this tutorial helps you, please give a Star!**
 
 ---
 
 <p align="center">
-  Made with ❤️ by the community<br>
-  <a href="https://clashvip.net">ClashVIP</a> �?  <a href="https://clashhub.net">ClashHub</a> �?  <a href="https://clash-for-windows.net">CFW Download</a>
+  Made with 鉂わ笍 by the community<br>
+  <a href="https://clashvip.net">ClashVIP</a> 鈥?  <a href="https://clashhub.net">ClashHub</a> 鈥?  <a href="https://clash-for-windows.net">CFW Download</a>
 </p>
