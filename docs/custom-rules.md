@@ -1,37 +1,33 @@
-# 自定义规则教程
-
-本教程教你如何自定义 Clash 规则，实现精细化的流量控制。
-
+# 鑷畾涔夎鍒欐暀绋?
+鏈暀绋嬫暀浣犲浣曡嚜瀹氫箟 Clash 瑙勫垯锛屽疄鐜扮簿缁嗗寲鐨勬祦閲忔帶鍒躲€?
 ---
 
-## 📖 规则基础
+## 馃摉 瑙勫垯鍩虹
 
-### 规则类型
+### 瑙勫垯绫诲瀷
 
-| 类型 | 格式 | 示例 |
+| 绫诲瀷 | 鏍煎紡 | 绀轰緥 |
 |------|------|------|
-| DOMAIN | 完整域名 | `DOMAIN,google.com,Proxy` |
-| DOMAIN-SUFFIX | 域名后缀 | `DOMAIN-SUFFIX,google.com,Proxy` |
-| DOMAIN-KEYWORD | 域名关键词 | `DOMAIN-KEYWORD,google,Proxy` |
-| IP-CIDR | IP段 | `IP-CIDR,8.8.8.0/24,Proxy` |
-| GEOIP | 地理位置 | `GEOIP,CN,Direct` |
-| DST-PORT | 目标端口 | `DST-PORT,80,Direct` |
+| DOMAIN | 瀹屾暣鍩熷悕 | `DOMAIN,google.com,Proxy` |
+| DOMAIN-SUFFIX | 鍩熷悕鍚庣紑 | `DOMAIN-SUFFIX,google.com,Proxy` |
+| DOMAIN-KEYWORD | 鍩熷悕鍏抽敭璇?| `DOMAIN-KEYWORD,google,Proxy` |
+| IP-CIDR | IP娈?| `IP-CIDR,8.8.8.0/24,Proxy` |
+| GEOIP | 鍦扮悊浣嶇疆 | `GEOIP,CN,Direct` |
+| DST-PORT | 鐩爣绔彛 | `DST-PORT,80,Direct` |
 
-### 策略组
-
-| 策略 | 说明 |
+### 绛栫暐缁?
+| 绛栫暐 | 璇存槑 |
 |------|------|
-| Proxy | 代理 |
-| Direct | 直连 |
-| Reject | 拦截 |
-| 自定义策略组 | 自己定义的策略组名 |
+| Proxy | 浠ｇ悊 |
+| Direct | 鐩磋繛 |
+| Reject | 鎷︽埅 |
+| 鑷畾涔夌瓥鐣ョ粍 | 鑷繁瀹氫箟鐨勭瓥鐣ョ粍鍚?|
 
 ---
 
-## 🛠 常用规则示例
+## 馃洜 甯哥敤瑙勫垯绀轰緥
 
-### 流媒体规则
-
+### 娴佸獟浣撹鍒?
 ```yaml
 rules:
   # Netflix
@@ -53,8 +49,7 @@ rules:
   - DOMAIN-SUFFIX,hbonow.com,Proxy
 ```
 
-### 开发工具规则
-
+### 寮€鍙戝伐鍏疯鍒?
 ```yaml
 rules:
   # GitHub
@@ -72,7 +67,7 @@ rules:
   - DOMAIN-SUFFIX,stackexchange.com,Proxy
 ```
 
-### AI服务规则
+### AI鏈嶅姟瑙勫垯
 
 ```yaml
 rules:
@@ -89,27 +84,27 @@ rules:
   - DOMAIN-SUFFIX,midjourney.com,Proxy
 ```
 
-### 广告拦截规则
+### 骞垮憡鎷︽埅瑙勫垯
 
 ```yaml
 rules:
-  # 广告域名
+  # 骞垮憡鍩熷悕
   - DOMAIN-KEYWORD,adserver,REJECT
   - DOMAIN-KEYWORD,analytics,REJECT
   - DOMAIN-KEYWORD,tracking,REJECT
   - DOMAIN-SUFFIX,doubleclick.net,REJECT
   - DOMAIN-SUFFIX,googlesyndication.com,REJECT
   
-  # 隐私追踪
+  # 闅愮杩借釜
   - DOMAIN-SUFFIX,google-analytics.com,REJECT
   - DOMAIN-SUFFIX,facebook.com/tr,REJECT
 ```
 
-### 国内直连规则
+### 鍥藉唴鐩磋繛瑙勫垯
 
 ```yaml
 rules:
-  # 常用国内网站
+  # 甯哥敤鍥藉唴缃戠珯
   - DOMAIN-SUFFIX,bilibili.com,DIRECT
   - DOMAIN-SUFFIX,taobao.com,DIRECT
   - DOMAIN-SUFFIX,tmall.com,DIRECT
@@ -119,16 +114,14 @@ rules:
   - DOMAIN-SUFFIX,weibo.com,DIRECT
   - DOMAIN-SUFFIX,zhihu.com,DIRECT
   
-  # 地理位置分流
+  # 鍦扮悊浣嶇疆鍒嗘祦
   - GEOIP,CN,DIRECT
 ```
 
 ---
 
-## 🎯 进阶技巧
-
-### 策略组配置
-
+## 馃幆 杩涢樁鎶€宸?
+### 绛栫暐缁勯厤缃?
 ```yaml
 proxy-groups:
   - name: Proxy
@@ -158,10 +151,8 @@ proxy-groups:
       - Japan
 ```
 
-### 规则集引用
-
-使用外部规则集，减少配置文件大小：
-
+### 瑙勫垯闆嗗紩鐢?
+浣跨敤澶栭儴瑙勫垯闆嗭紝鍑忓皯閰嶇疆鏂囦欢澶у皬锛?
 ```yaml
 rule-providers:
   reject:
@@ -177,12 +168,12 @@ rules:
 
 ---
 
-## 🔗 相关资源
+## 馃敆 鐩稿叧璧勬簮
 
-- [Clash官方文档](https://lancellc.gitbook.io/clash/)
-- [规则集仓库](https://github.com/Loyalsoldier/clash-rules)
-- [广告拦截规则](https://github.com/ACL4SSR/ACL4SSR)
+- [Clash瀹樻柟鏂囨。](https://lancellc.gitbook.io/clash/)
+- [瑙勫垯闆嗕粨搴揮(https://github.com/Loyalsoldier/clash-rules)
+- [骞垮憡鎷︽埅瑙勫垯](https://github.com/ACL4SSR/ACL4SSR)
 
 ---
 
-**最后更新**：2026-03-26
+**鏈€鍚庢洿鏂?*锛?026-03-26
